@@ -9,9 +9,9 @@ import java.util.Scanner;
 //建立2-3筆郵便箱資料 id, name, length, width, height, price
 
 //box(database) -> box(table)
-//-> 1, Box #1, 10, 10, 10, 10, 100
-//-> 2, Box #2, 15, 10, 10, 10, 150
-//-> 3, Box #3, 15, 15, 10, 10, 200
+//-> 1, Box #1, 10, 10, 10, 100
+//-> 2, Box #2, 15, 10, 10, 150
+//-> 3, Box #3, 15, 15, 10, 200
 
 public class BoxExam {
     public static void main(String[] args) {
