@@ -37,6 +37,10 @@ public class BoxExam {
                 boxFormDBList.add(new BoxFormDB(id,name,length,width,height,price));
             }
 
+            resultSet.close();
+            stmt.close();
+            connection.close();
+
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
         } catch (SQLException throwables) {
